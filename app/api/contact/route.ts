@@ -276,7 +276,7 @@ Please respond to the client at: ${email}
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
-              from: "OmniLingua <onboarding@resend.dev>",
+              from: "OmniLingua <noreply@send.omniligua>",
               to: [email],
               subject: "✅ Translation Request Received - OmniLingua",
               html: `
@@ -326,8 +326,10 @@ Please respond to the client at: ${email}
           if (confirmResponse.ok) {
             console.log("✅ Confirmation email sent successfully")
           } else {
-            console.log("⚠️ Confirmation email failed, but main email was sent")
+            const errorText = await confirmResponse.text()
+            console.error("⚠️ Confirmation email failed:", errorText)
           }
+
         } catch (confirmError) {
           console.error("Confirmation email failed:", confirmError)
         }
