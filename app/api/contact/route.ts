@@ -137,7 +137,17 @@ Please respond to the client at: ${email}
       console.log("Attempting to send email via Resend API...")
 
       // Prepare email payload
-      const basicEmailPayload = {
+      type EmailAttachment = { filename: string; content: string }
+      type EmailPayload = {
+        from: string
+        to: string[]
+        subject: string
+        html: string
+        text: string
+        reply_to: string
+        attachments?: EmailAttachment[]
+      }
+      const basicEmailPayload: EmailPayload = {
         from: "OmniLingua <onboarding@resend.dev>",
         to: ["migatrakesca.esca@gmail.com"],
         subject: `🌍 Translation Request from ${name}`,
