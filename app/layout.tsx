@@ -5,7 +5,7 @@ import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
 import CookieBanner from "@/components/cookie-banner"
-import { useAnalytics } from "./hooks/useAnalytics"
+import AnalyticsProvider from "@/components/analytics-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -30,6 +30,7 @@ export default function RootLayout({
           <Navbar />
           {children}
           <CookieBanner />
+          <AnalyticsProvider />
         </ThemeProvider>
       </body>
     </html>
