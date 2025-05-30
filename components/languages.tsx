@@ -31,7 +31,7 @@ export default function Languages() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Languages We Support</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Our team of certified translators can translate documents from and to over 50 languages worldwide.
+              Our team of certified translators can translate documents from and to over 200 languages worldwide.
             </p>
           </div>
         </div>

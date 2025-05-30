@@ -98,21 +98,22 @@ export default function ContactForm() {
               <Mail className="h-5 w-5 text-primary" />
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-sm text-muted-foreground">info@omniLingua.com</p>
+                <p className="text-sm text-muted-foreground">migatrakesca.esca@gmail.com
+</p>
               </div>
             </div>
             <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
               <Phone className="h-5 w-5 text-primary" />
               <div>
                 <p className="font-medium">Phone</p>
-                <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                <p className="text-sm text-muted-foreground">+353 (555) 123-4567</p>
               </div>
             </div>
             <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
               <MapPin className="h-5 w-5 text-primary" />
               <div>
                 <p className="font-medium">Address</p>
-                <p className="text-sm text-muted-foreground">123 Translation Ave</p>
+                <p className="text-sm text-muted-foreground">Gardiner Street Upper, Dublin</p>
               </div>
             </div>
           </div>

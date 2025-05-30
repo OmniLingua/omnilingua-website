@@ -1,4 +1,4 @@
-import { FileText, Award, Clock, Building } from "lucide-react"
+import { FileText, Award, Clock, Building, Briefcase, ShieldCheck, Globe2 } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function Services() {
@@ -7,23 +7,43 @@ export default function Services() {
       icon: <FileText className="h-10 w-10 text-primary" />,
       title: "Personal Documents",
       description:
-        "Passports, birth certificates, marriage certificates, academic transcripts, and other personal documents.",
+        "Translations for passports, birth & marriage certificates, medical records, immigration paperwork, and more — certified and accepted by official authorities.",
     },
     {
       icon: <Award className="h-10 w-10 text-primary" />,
       title: "Academic Credentials",
       description:
-        "Diplomas, degrees, transcripts, and other educational documents for immigration or employment purposes.",
+        "Degree certificates, transcripts, recommendation letters, and other academic documents required for study, visa, or work abroad.",
     },
     {
       icon: <Building className="h-10 w-10 text-primary" />,
       title: "Business Documents",
-      description: "Contracts, financial statements, marketing materials, and corporate communications.",
+      description:
+        "From contracts and company bylaws to financial reports and HR policies — we help businesses communicate clearly across borders.",
     },
     {
       icon: <Clock className="h-10 w-10 text-primary" />,
       title: "Express Service",
-      description: "Urgent translation services with quick turnaround times for time-sensitive documents.",
+      description:
+        "Priority translations for urgent needs — delivered in as little as 24 hours without compromising quality.",
+    },
+    {
+      icon: <Briefcase className="h-10 w-10 text-primary" />,
+      title: "Legal & Certified Translation",
+      description:
+        "Accurate and confidential translation of court documents, affidavits, powers of attorney, and compliance materials — with legal certification.",
+    },
+    {
+      icon: <ShieldCheck className="h-10 w-10 text-primary" />,
+      title: "Government & NGO Translations",
+      description:
+        "Expert translation services for embassies, NGOs, local councils, and government bodies — aligned with regulatory standards.",
+    },
+    {
+      icon: <Globe2 className="h-10 w-10 text-primary" />,
+      title: "Website & App Localization",
+      description:
+        "Adapt your digital presence to global audiences with culturally aware translations for websites, apps, and marketing content.",
     },
   ]
 
@@ -34,7 +54,7 @@ export default function Services() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              We offer a wide range of translation services to meet your personal and professional needs.
+              Whether you need a personal document translated for immigration or a multilingual launch of your business, OmniLingua is your trusted partner in high-quality, human-powered translation services.
             </p>
           </div>
         </div>

@@ -93,15 +93,15 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground">123 Translation Ave, Language City, 10001</span>
+                <span className="text-muted-foreground">Gardiner Street Upper, Dublin</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+353 (555) 123-4567</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground">info@omniLingua.com</span>
+                <span className="text-muted-foreground">migatrakesca.esca@gmail.com</span>
               </li>
             </ul>
           </div>
