@@ -98,8 +98,7 @@ export default function ContactForm() {
               <Mail className="h-5 w-5 text-primary" />
               <div>
                 <p className="font-medium">Email</p>
-                <p className="text-sm text-muted-foreground">migatrakesca.esca@gmail.com
-</p>
+                <p className="text-sm text-muted-foreground">migatrakesca.esca@gmail.com</p>
               </div>
             </div>
             <div className="flex items-center gap-3 p-4 bg-muted/50 rounded-lg">
