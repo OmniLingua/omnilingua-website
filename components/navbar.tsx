@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Globe className="h-6 w-6 text-primary" />
           <Link href="/" className="text-xl font-bold">
-            GlobalTrans
+            OmniLingua
           </Link>
         </div>
 

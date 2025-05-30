@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Globe className="h-6 w-6 text-primary" />
-              <h3 className="text-xl font-bold">GlobalTrans</h3>
+              <h3 className="text-xl font-bold">OmniLingua</h3>
             </div>
             <p className="text-sm text-muted-foreground">
               Professional document translation services in over 50 languages by certified translators.
@@ -101,14 +101,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground">info@globaltrans.com</span>
+                <span className="text-muted-foreground">info@omniLingua.com</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="mt-12 border-t pt-6">
           <p className="text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} GlobalTrans. All rights reserved.
+            © {new Date().getFullYear()} OmniLingua. All rights reserved.
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Languages from "@/components/languages"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Languages - GlobalTrans",
+  title: "Languages - OmniLingua",
   description: "View all the languages we support for professional translation services.",
 }
 

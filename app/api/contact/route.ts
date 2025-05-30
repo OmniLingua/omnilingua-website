@@ -138,7 +138,7 @@ Please respond to the client at: ${email}
 
       // Prepare email payload
       const basicEmailPayload = {
-        from: "GlobalTrans <onboarding@resend.dev>",
+        from: "OmniLingua <onboarding@resend.dev>",
         to: ["migatrakesca.esca@gmail.com"],
         subject: `🌍 Translation Request from ${name}`,
         html: `
@@ -158,7 +158,7 @@ Please respond to the client at: ${email}
             <body>
               <div class="header">
                 <h2 style="margin: 0;">🌍 New Translation Request</h2>
-                <p style="margin: 5px 0 0 0;">GlobalTrans</p>
+                <p style="margin: 5px 0 0 0;">OmniLingua</p>
               </div>
               
               <div class="section">
@@ -266,9 +266,9 @@ Please respond to the client at: ${email}
               "Content-Type": "application/json",
             },
             body: JSON.stringify({
-              from: "GlobalTrans <onboarding@resend.dev>",
+              from: "OmniLingua <onboarding@resend.dev>",
               to: [email],
-              subject: "✅ Translation Request Received - GlobalTrans",
+              subject: "✅ Translation Request Received - OmniLingua",
               html: `
                 <!DOCTYPE html>
                 <html>
@@ -283,7 +283,7 @@ Please respond to the client at: ${email}
                   </head>
                   <body>
                     <div class="header">
-                      <h2 style="margin: 0;">🌍 GlobalTrans</h2>
+                      <h2 style="margin: 0;">🌍 OmniLingua</h2>
                       <p style="margin: 5px 0 0 0;">Thank you for your request!</p>
                     </div>
                     <div class="content">
@@ -301,15 +301,15 @@ Please respond to the client at: ${email}
 
                       <p>If you have any urgent questions, please contact us:</p>
                       <ul>
-                        <li>📧 Email: info@globaltrans.com</li>
+                        <li>📧 Email: info@OmniLingua.com</li>
                         <li>📞 Phone: +1 (555) 123-4567</li>
                       </ul>
-                      <p>Best regards,<br>The GlobalTrans Team</p>
+                      <p>Best regards,<br>The OmniLingua Team</p>
                     </div>
                   </body>
                 </html>
               `,
-              text: `Dear ${name}, we have received your translation request and will contact you within 24 hours. Service: ${service}, Languages: ${fromLanguage} → ${toLanguage}, Files: ${validDocuments.length}. Contact: info@globaltrans.com | +1 (555) 123-4567`,
+              text: `Dear ${name}, we have received your translation request and will contact you within 24 hours. Service: ${service}, Languages: ${fromLanguage} → ${toLanguage}, Files: ${validDocuments.length}. Contact: info@OmniLingua.com | +1 (555) 123-4567`,
             }),
           })
 

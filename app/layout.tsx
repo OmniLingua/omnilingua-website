@@ -8,7 +8,7 @@ import Navbar from "@/components/navbar"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "GlobalTrans - Professional Document Translation Services",
+  title: "OmniLingua - Professional Document Translation Services",
   description:
     "Professional translation services for passports, certificates, and official documents in multiple languages.",
     generator: 'v0.dev'

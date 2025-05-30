@@ -3,8 +3,8 @@ import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Contact Us - GlobalTrans",
-  description: "Get in touch with GlobalTrans for your translation needs.",
+  title: "Contact Us - OmniLingua",
+  description: "Get in touch with OmniLingua for your translation needs.",
 }
 
 export default function ContactPage() {

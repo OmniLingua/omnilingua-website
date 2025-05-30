@@ -8,7 +8,7 @@ export default function AboutUs() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Us</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              GlobalTrans is a leading translation company with over 15 years of experience providing accurate and
+              OmniLingua is a leading translation company with over 15 years of experience providing accurate and
               certified translations for individuals and businesses worldwide.
             </p>
           </div>

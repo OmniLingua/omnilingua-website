@@ -3,7 +3,7 @@ import Services from "@/components/services"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Services - GlobalTrans",
+  title: "Services - OmniLingua",
   description: "Explore our comprehensive translation services for personal and business documents.",
 }
 
