@@ -12,7 +12,8 @@ export default function Footer() {
               <h3 className="text-xl font-bold">OmniLingua</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              Professional document translation services in over 200 languages by certified translators.
+              Professional document translation services in over 200 languages by certified translators. Trusted across
+              Ireland for quality and reliability.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-foreground">
@@ -57,6 +58,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/reviews" className="text-muted-foreground hover:text-foreground">
+                  Reviews
+                </Link>
+              </li>
+              <li>
                 <Link href="/contact" className="text-muted-foreground hover:text-foreground">
                   Contact
                 </Link>
@@ -86,6 +92,11 @@ export default function Footer() {
                   Express Service
                 </Link>
               </li>
+              <li>
+                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                  Legal Translation
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="space-y-4">
@@ -108,7 +119,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t pt-6">
           <p className="text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} OmniLingua. All rights reserved.
+            © {new Date().getFullYear()} OmniLingua. All rights reserved. | ISO 17100 Certified Translation Services
           </p>
         </div>
       </div>
