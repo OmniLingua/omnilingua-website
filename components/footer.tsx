@@ -1,5 +1,7 @@
 import Link from "next/link"
 import { Globe, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import TermsModal from "@/components/terms-modal"
+import PrivacyModal from "@/components/privacy-modal"
 
 export default function Footer() {
   return (
@@ -16,19 +18,19 @@ export default function Footer() {
               Ireland for quality and reliability.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-muted-foreground hover:text-foreground">
+              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground">
+              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground">
+              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground">
+              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -38,32 +40,32 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/" className="text-muted-foreground hover:text-foreground">
+                <Link href="/" className="text-muted-foreground hover:text-foreground transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-muted-foreground hover:text-foreground">
+                <Link href="/about" className="text-muted-foreground hover:text-foreground transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                <Link href="/services" className="text-muted-foreground hover:text-foreground transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/languages" className="text-muted-foreground hover:text-foreground">
+                <Link href="/languages" className="text-muted-foreground hover:text-foreground transition-colors">
                   Languages
                 </Link>
               </li>
               <li>
-                <Link href="/reviews" className="text-muted-foreground hover:text-foreground">
+                <Link href="/reviews" className="text-muted-foreground hover:text-foreground transition-colors">
                   Reviews
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-muted-foreground hover:text-foreground">
+                <Link href="/contact" className="text-muted-foreground hover:text-foreground transition-colors">
                   Contact
                 </Link>
               </li>
@@ -73,27 +75,27 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Services</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                <Link href="/services" className="text-muted-foreground hover:text-foreground transition-colors">
                   Personal Documents
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                <Link href="/services" className="text-muted-foreground hover:text-foreground transition-colors">
                   Academic Credentials
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                <Link href="/services" className="text-muted-foreground hover:text-foreground transition-colors">
                   Business Documents
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                <Link href="/services" className="text-muted-foreground hover:text-foreground transition-colors">
                   Express Service
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-muted-foreground hover:text-foreground">
+                <Link href="/services" className="text-muted-foreground hover:text-foreground transition-colors">
                   Legal Translation
                 </Link>
               </li>
@@ -117,10 +119,29 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+
+        {/* Legal Links and Copyright */}
         <div className="mt-12 border-t pt-6">
-          <p className="text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} OmniLingua. All rights reserved. | ISO 17100 Certified Translation Services
-          </p>
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-xs text-muted-foreground">
+              © {new Date().getFullYear()} OmniLingua. All rights reserved. | ISO 17100 Certified Translation Services
+            </p>
+            <div className="flex items-center gap-4 text-xs">
+              <TermsModal>
+                <button className="text-muted-foreground hover:text-foreground transition-colors underline-offset-4 hover:underline">
+                  Terms of Service
+                </button>
+              </TermsModal>
+              <span className="text-muted-foreground">•</span>
+              <PrivacyModal>
+                <button className="text-muted-foreground hover:text-foreground transition-colors underline-offset-4 hover:underline">
+                  Privacy Policy
+                </button>
+              </PrivacyModal>
+              <span className="text-muted-foreground">•</span>
+              <span className="text-muted-foreground">GDPR Compliant</span>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

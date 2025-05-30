@@ -4,16 +4,18 @@ import { Inter } from "next/font/google"
 import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/navbar"
+import CookieBanner from "@/components/cookie-banner"
+import { useAnalytics } from "./hooks/useAnalytics"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "OmniLingua - Professional Document Translation Services",
   description:
-    "Professional translation services for passports, certificates, and official documents in multiple languages.",
-    icons: {
-      icon: 'https://avatars.githubusercontent.com/u/213985061?s=200&v=4',
-    },
+    "Professional translation services for passports, certificates, and official documents in multiple languages. Trusted by thousands across Ireland.",
+  icons: {
+    icon: "https://avatars.githubusercontent.com/u/213985061?s=200&v=4",
+  },
 }
 
 export default function RootLayout({
@@ -27,6 +29,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navbar />
           {children}
+          <CookieBanner />
         </ThemeProvider>
       </body>
     </html>
