@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   title: "OmniLingua - Professional Document Translation Services",
   description:
     "Professional translation services for passports, certificates, and official documents in multiple languages.",
-    generator: 'v0.dev'
+    icons: {
+      icon: 'https://avatars.githubusercontent.com/u/213985061?s=200&v=4',
+    },
 }
 
 export default function RootLayout({
