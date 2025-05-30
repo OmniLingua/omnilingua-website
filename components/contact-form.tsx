@@ -198,7 +198,7 @@ export default function ContactForm() {
               />
             </div>
             <div className="grid gap-3">
-              <Label htmlFor="documents">Upload Documents</Label>
+              <Label htmlFor="documents">Upload Documents MAX 5 files</Label>
               <div className="grid gap-1.5">
                 <Label
                   htmlFor="documents"
@@ -209,7 +209,7 @@ export default function ContactForm() {
                     {fileNames.length > 0 ? `${fileNames.length} file(s) selected` : "Click to upload or drag and drop"}
                   </span>
                   <span className="text-xs text-muted-foreground mt-1">
-                    PDF, DOC, DOCX, JPG, PNG (max 5MB each, 15MB total)
+                    PDF, DOC, DOCX, JPG, PNG (max 5MB each, 15MB total, MAX 5 files)
                   </span>
                   <Input
                     id="documents"
