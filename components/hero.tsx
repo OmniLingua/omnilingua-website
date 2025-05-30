@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from 'next/image';
+
 
 export default function Hero() {
   return (
@@ -31,12 +33,12 @@ export default function Hero() {
           </div>
           <div className="flex items-center justify-center">
             <div className="relative h-[350px] w-full md:h-[450px] lg:h-[450px] xl:h-[550px] overflow-hidden rounded-lg">
-              <img
-                src="/placeholder.svg?height=550&width=500"
-                alt="Translation services illustration"
-                className="object-cover w-full h-full"
+              <Image
+                src="https://github.com/OmniLingua/test/blob/main/Logo1.png?raw=true"
+                alt="Co-founders of OmniLingua"
                 width={500}
                 height={550}
+                className="object-cover w-full h-full rounded-lg"
               />
             </div>
           </div>

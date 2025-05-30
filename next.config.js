@@ -7,7 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["placeholder.svg"],
+    domains: ["raw.githubusercontent.com"], // ✅ Allow external image domain
     unoptimized: true,
   },
   experimental: {

@@ -50,7 +50,7 @@ export default function AboutUs() {
           <div className="flex justify-center">
             <div className="relative h-[350px] w-full md:h-[450px] overflow-hidden rounded-lg">
               <img
-                src="/placeholder.svg?height=450&width=450"
+                src="https://github.com/OmniLingua/test/blob/main/Co-founders.png?raw=true"
                 alt="Our team of translators"
                 className="object-cover w-full h-full"
                 width={450}
