@@ -71,8 +71,7 @@ export default function AboutUs() {
               </li>
             </ul>
           </div>
-
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center justify-center">
             <div className="relative h-[350px] w-full md:h-[450px] overflow-hidden rounded-lg">
               <img
                 src="https://github.com/OmniLingua/test/blob/main/Co-founders.png?raw=true"
@@ -82,6 +81,9 @@ export default function AboutUs() {
                 height={450}
               />
             </div>
+            <p className="mt-4 text-center text-muted-foreground text-sm md:text-base">
+              Eskandar Atrakchi &nbsp;·&nbsp; Ali Yonas — Co-founders of OmniLingua
+            </p>
           </div>
         </div>
       </div>
