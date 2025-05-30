@@ -12,7 +12,7 @@ export default function Footer() {
               <h3 className="text-xl font-bold">OmniLingua</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              Professional document translation services in over 50 languages by certified translators.
+              Professional document translation services in over 200 languages by certified translators.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-foreground">
