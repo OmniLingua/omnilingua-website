@@ -112,7 +112,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="relative h-[350px] w-full md:h-[450px] lg:h-[450px] xl:h-[550px] overflow-hidden rounded-lg shadow-2xl">
               <Image
-                src="https://github.com/OmniLingua/test/blob/main/Logo1.png?raw=true"
+                src="https://github.com/OmniLingua/test/blob/main/Logo1.png?raw=truehttps://avatars.githubusercontent.com/u/213985061?s=400&u=220e5066e3f3b21f21646bcfc9330fc9c2af83c6&v=4"
                 alt="OmniLingua Professional Translation Services"
                 width={500}
                 height={550}
