@@ -247,9 +247,33 @@ export default function PrivacyModal({ children }: PrivacyModalProps) {
               </section>
 
               <section className="space-y-4">
+                <h3 className="text-lg font-semibold">12. Data Processing Addendum (DPA) for Business Clients</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  For business clients who engage OmniLingua as a data processor (e.g., providing us with documents containing personal data for translation), this Privacy Policy is supplemented by our Data Processing Addendum (DPA), in accordance with <a href="https://gdpr-info.eu/art-28-gdpr/"><strong><em><span className="text-blue-500 hover:underline">Article 28 of the GDPR.</span></em></strong></a>
+                </p>
+                <div className="space-y-3">
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Key provisions of our DPA include:
+                  </p>
+                  <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1 ml-4">
+                    <li>Processing personal data solely for the purpose of providing the contracted services</li>
+                    <li>Implementing appropriate technical and organizational security measures</li>
+                    <li>Ensuring personnel are bound by confidentiality</li>
+                    <li>Assisting the client with data subject requests and regulatory compliance</li>
+                    <li>Returning or securely deleting data at the end of the service relationship</li>
+                    <li>Making information available to demonstrate GDPR compliance</li>
+                  </ul>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Business clients may request a copy of the DPA by emailing{" "}
+                    <a href="mailto:privacy@omnilingua.ie" className="text-red-400 hover:underline">privacy@omnilingua.ie</a>.
+                  </p>
+                </div>
+              </section>
+
+              <section className="space-y-4">
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
-                  <h3 className="text-lg font-semibold">12. Contact Us</h3>
+                  <h3 className="text-lg font-semibold">13. Contact Us</h3>
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   For questions about this Privacy Policy or to exercise your rights, please contact our Data Protection
