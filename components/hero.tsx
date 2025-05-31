@@ -20,8 +20,8 @@ export default function Hero() {
     "Certified translations for legal, medical, financial, and technical documents",
     "Professional interpreting for meetings, conferences, and events",
     "Localization services to help your business connect worldwide",
-    "Serving all Irish provinces including Dublin, Cork, Galway, and Waterford",
-    "ISO certified quality standards and experienced linguists",
+    "Serving all Irish provinces including Dublin, Cork, Galway, Waterford, and more",
+    "Committed to high translation standards in line with industry best practices including ISO 17100",
     "Express service available for urgent translation needs",
   ]
 
@@ -51,7 +51,7 @@ export default function Hero() {
               <span>•</span>
               <span>Trusted by 2,500+ clients</span>
               <span>•</span>
-              <span>ISO Certified</span>
+              <span>high translation standards including ISO</span>
             </div>
 
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
@@ -144,7 +144,7 @@ export default function Hero() {
             Trusted by leading organizations and institutions
           </p>
           <div className="flex justify-center items-center gap-8 opacity-60">
-            <div className="text-xs font-medium">ISO 17100 Certified</div>
+            <div className="text-xs font-medium">ISO 17100 standards</div>
             <div className="text-xs font-medium">GDPR Compliant</div>
             <div className="text-xs font-medium">Secure & Confidential</div>
             <div className="text-xs font-medium">Quality Guaranteed</div>

@@ -124,7 +124,7 @@ export default function Footer() {
         <div className="mt-12 border-t pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-muted-foreground">
-              © {new Date().getFullYear()} OmniLingua. All rights reserved. | ISO 17100 Certified Translation Services
+              © {new Date().getFullYear()} OmniLingua. All rights reserved. | ISO 17100 Standards Translation Services
             </p>
             <div className="flex items-center gap-4 text-xs">
               <TermsModal>

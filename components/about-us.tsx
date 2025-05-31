@@ -12,64 +12,31 @@ export default function AboutUs() {
     {
       id: 1,
       name: "Eskandar Atrakchi",
-      role: "Co-Founder & CEO",
-      specialization: "Arabic, Persian, English",
-      experience: "15+ years",
+      role: "Founder & Dev",
+      specialization: "Computer Scientist",
+      experience: "8+ years",
       image: "https://avatars.githubusercontent.com/u/102361045?v=4",
-      bio: "Eskandar brings over 15 years of experience in professional translation and business development. He specializes in legal and business document translation and has helped thousands of clients navigate complex immigration processes.",
+      bio: "Eskandar brings over 8 years of experience in professional and business development. He specializes in Computer Science and business management and has helped thousands of clients navigate complex immigration processes.",
       certifications: [
-        "Certified Translator (Arabic-English)",
-        "MBA in International Business",
-        "Legal Translation Specialist",
+        "BSc (Hons) Computer Science (in progress)",
+        "Special focus on automation and process management in translation workflows",
+        "Experience supporting clients in immigration and global business documentation",
+        "Founder of Translation company, committed to ISO-aligned practices",
       ],
     },
     {
       id: 2,
       name: "Ali Yonas",
-      role: "Co-Founder & CTO",
-      specialization: "Technology, French, English",
+      role: "Co-Founder & CEO",
+      specialization: "Technology, Legal & Quality Assurance Expert",
       experience: "12+ years",
       image: "https://media-dub4-1.cdn.whatsapp.net/v/t61.24694-24/491840611_579237534676827_3356948256234096594_n.jpg?ccb=11-4&oh=01_Q5Aa1gFGIrRZUgkKBO7Guh06amFhBKlIv7l5pC463NURjn0NTw&oe=68473238&_nc_sid=5e03e0&_nc_cat=103",
-      bio: "Ali leads our technology initiatives and quality assurance processes. With a background in linguistics and computer science, he ensures our translation processes are both accurate and efficient.",
+      bio: "Ali is a seasoned professional with over 12 years of experience in technology, legal, and quality assurance. He has a proven track record in managing complex translation projects and ensuring compliance with international standards.",
       certifications: [
-        "MSc in Computational Linguistics",
-        "Certified Translation Project Manager",
-        "ISO 17100 Quality Specialist",
+        "Certified Quality Assurance Professional",
+        "Expert in legal and technical translation processes",
+        "Extensive experience in managing large-scale translation projects",
       ],
-    },
-    {
-      id: 3,
-      name: "Dr. Maria Santos",
-      role: "Senior Translator",
-      specialization: "Spanish, Portuguese, Medical",
-      experience: "20+ years",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuFmNTkW7-ZQhT-YypyGJzVzXUs5eaUO2LXw&s",
-      bio: "Dr. Santos is our lead medical translator with extensive experience in healthcare documentation. She has worked with major hospitals and medical institutions across Europe.",
-      certifications: [
-        "PhD in Translation Studies",
-        "Medical Translation Specialist",
-        "Certified Healthcare Interpreter",
-      ],
-    },
-    {
-      id: 4,
-      name: "Zhang Wei",
-      role: "Senior Translator",
-      specialization: "Chinese, Japanese, Korean",
-      experience: "18+ years",
-      image: "https://i.imgur.com/zNWXrrlg.jpg",
-      bio: "Zhang Wei specializes in Asian languages and has extensive experience in academic and business translation. He has helped hundreds of students with their university applications.",
-      certifications: ["MA in East Asian Studies", "Certified Academic Translator", "Business Translation Specialist"],
-    },
-    {
-      id: 5,
-      name: "Sophie Dubois",
-      role: "Quality Manager",
-      specialization: "French, German, Legal",
-      experience: "14+ years",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYs_c6Ojy59QePPkuS3HiKh5wIOihFluiLdep2eY7n7gKy8__p2LdfrPVNCSH7Sq6c46U&usqp=CAU",
-      bio: "Sophie oversees our quality assurance processes and specializes in legal document translation. She ensures every translation meets the highest professional standards.",
-      certifications: ["LLM in International Law", "Certified Legal Translator", "ISO Quality Management"],
     },
   ]
 
@@ -89,7 +56,7 @@ export default function AboutUs() {
     },
     {
       icon: <Award className="h-8 w-8 text-primary" />,
-      title: "ISO 17100 Certified",
+      title: "ISO 17100 Standards",
       description: "International quality standard for translation services",
     },
     {
@@ -174,7 +141,7 @@ export default function AboutUs() {
                     </div>
                     <p className="text-muted-foreground mb-6 leading-relaxed">{teamMembers[currentMember].bio}</p>
                     <div>
-                      <h5 className="font-semibold mb-3">Certifications:</h5>
+                      <h5 className="font-semibold mb-3">Background & Qualifications:</h5>
                       <ul className="space-y-2">
                         {teamMembers[currentMember].certifications.map((cert, index) => (
                           <li key={index} className="flex items-start gap-2">

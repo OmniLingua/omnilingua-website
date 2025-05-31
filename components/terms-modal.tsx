@@ -80,7 +80,7 @@ export default function TermsModal({ children }: TermsModalProps) {
               <section className="space-y-4">
                 <h3 className="text-lg font-semibold">4. Quality Assurance</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  We maintain high-quality standards through our ISO 17100 certified processes. All translations undergo
+                  We maintain high-quality standards through our ISO 17100 quality standards processes. All translations undergo
                   multiple quality checks including translation, editing, proofreading, and final review. However, we
                   recommend that clients review translations for context-specific accuracy.
                 </p>
