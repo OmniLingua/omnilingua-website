@@ -138,8 +138,8 @@ export default function Footer() {
                   Privacy Policy
                 </button>
               </PrivacyModal>
-              <span className="text-muted-foreground">•</span>
-              <span className="text-muted-foreground">GDPR Compliant</span>
+              <span className="text-muted-foreground"></span>
+              <span className="text-muted-foreground"></span>
             </div>
           </div>
         </div>
