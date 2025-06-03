@@ -7,6 +7,8 @@ import Navbar from "@/components/navbar"
 import CookieBanner from "@/components/cookie-banner"
 import AnalyticsProvider from "@/components/analytics-provider"
 
+import ChatButton from '@/components/chat-button'
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -31,6 +33,7 @@ export default function RootLayout({
           {children}
           <CookieBanner />
           <AnalyticsProvider />
+          <ChatButton />
         </ThemeProvider>
       </body>
     </html>
