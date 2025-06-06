@@ -51,7 +51,7 @@ export default function ChatModal({ isOpen, onClose }: ChatModalProps) {
               </button>
             </div>
             <iframe
-              src="https://real-time-chat-2jhv.onrender.com/"
+              src="https://real-time-chat-weld.vercel.app/"
               className="w-full h-full border-none"
               allow="clipboard-write; microphone; camera"
             ></iframe>
